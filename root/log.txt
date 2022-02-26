@@ -1,0 +1,29 @@
+HTTP Request: GET /root/dir1/dir2 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: POST /form_submited.html HTTP/1.1
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/pdfsend.pdf HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 02:55:17 BDT 2020
+Content-Type: application/pdf
+Content-Length: 633428
+
+HTTP Request: GET /root/dir1/ultapalta HTTP/1.1
+Error 404 File not found
+HTTP REQUEST : UPLOAD 
+ HTTP RESPONSE :log.txt

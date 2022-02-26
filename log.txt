@@ -1,0 +1,157 @@
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/dir2 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/dir2/dir3 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/dir2/dir3/file3.txt HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Sep 28 15:26:00 BDT 2020
+Content-Type: text/html
+Content-Length: 20
+
+HTTP Request: UPLOAD got.webm
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP RESPONSE : UPLOAD SUCCESSFUL got.webm
+HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: UPLOAD got.webm
+HTTP RESPONSE : UPLOAD SUCCESSFUL got.webm
+HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: UPLOAD got.webm
+HTTP RESPONSE : UPLOAD SUCCESSFUL got.webm
+HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/got.webm HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Sep 28 15:40:26 BDT 2020
+Content-Type: video/webm
+Content-Length: 60922782
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: UPLOAD got.webm
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/got.webm HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Sep 28 15:43:46 BDT 2020
+Content-Type: video/webm
+Content-Length: 55264162
+
+HTTP RESPONSE : UPLOAD SUCCESSFUL got.webm
+HTTP/1.1 200 OK
+
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/dir2 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/dir2/dir3 HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/dir1/dir2/dir3/selrej HTTP/1.1
+Error 404 File not found
+HTTP Request: GET /root/dir1/imgsend.jpg HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Sep 28 15:54:03 BDT 2020
+Content-Type: image/jpg
+Content-Length: 2718541
+
+HTTP Request: GET / HTTP/1.1
+HTTP Response: HTTP/1.1 200 OK
+
+
+HTTP Request: GET /root/got.webm HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Sep 28 15:58:34 BDT 2020
+Content-Type: video/webm
+Content-Length: 60922782
+
+HTTP Request: GET /root/to.txt HTTP/1.1
+HTTP RESPONSE: File Downloaded
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Mon Sep 28 15:58:36 BDT 2020
+Content-Type: text/html
+Content-Length: 12
+
+HTTP Request: UPLOAD got.webm
+HTTP Request: UPLOAD to.txt
+HTTP RESPONSE : UPLOAD SUCCESSFUL to.txt
+HTTP/1.1 200 OK
+
+
+HTTP RESPONSE : UPLOAD SUCCESSFUL got.webm
+HTTP/1.1 200 OK
+
+
+UPLOAD SUCCESSFUL got.webm
+UPLOAD SUCCESSFUL to.txt
+HTTP REQUEST : UPLOAD sfasfelkrjawl
+HTTP RESPONSE: UPLOAD FAILED
+
